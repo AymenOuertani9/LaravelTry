@@ -6,6 +6,9 @@
         <title>Laravel</title>
     </head>
     <body class="antialiased">
-        @yield('content')
+        @include('inc.navbar')
+        <div class="container">
+            @yield('content')
+        </div>
     </body>
 </html>

@@ -12,8 +12,12 @@ class PagesController extends Controller
     }
 
     public function services(){
-        $title="Welcome to Services";
-        return view("pages.services")->with('title', $title);
+        $data = array(
+            'title'=> "Welcome to Services",
+            'services' => ["programming","SEO", "Graphic design"]
+        );
+        
+        return view("pages.services")->with($data);
     }
 
     public function about(){
