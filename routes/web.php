@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PostsController;
 
 
 /*
@@ -24,3 +25,5 @@ Route::get('/index', [PagesController:: class,'index']);
 Route::get('/service', [PagesController:: class,'services']);
 Route::get('/about', [PagesController:: class,'about']);
 
+
+Route::resource('postes', PostsController::class);
