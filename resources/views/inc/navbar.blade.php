@@ -3,5 +3,6 @@
     <a class="py-2 d-none d-md-inline-block" href="/index">index</a>
     <a class="py-2 d-none d-md-inline-block" href="/service">Services</a>
     <a class="py-2 d-none d-md-inline-block" href="/about">About Us</a>
+    <a class="py-2 d-none d-md-inline-block" href="/postes">Blog</a>
   </nav>
 </header>
