@@ -10,8 +10,10 @@
         <title>Laravel</title>
     </head>
     <body class="antialiased">
+       
         @include('inc.navbar')
         <div class="container">
+            @include('inc.message')
             @yield('content')
         </div>
     </body>
