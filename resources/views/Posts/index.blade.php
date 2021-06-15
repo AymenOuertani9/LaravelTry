@@ -5,7 +5,7 @@
         @foreach ($posts as $post)
         <div class="card bg-light p-3">
             <h2><a href="/postes/{{$post->id}}">{{$post->title}}</a></h2>
-            <small>Post Created on {{$post->created_at}}</small>
+            <small>Post Created on {{$post->created_at}} created by {{$post->user->name}}</small>
         </div>
         <br>
         @endforeach
